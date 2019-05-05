@@ -1,0 +1,19 @@
+body{
+    background-color:#D3D3D4;
+    margin :0 auto;
+}
+.padding{
+    padding: 5%;
+}
+.border{
+    border-radius: 20px;
+}
+.tengah {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    height: 300px;
+
+}
+
+
