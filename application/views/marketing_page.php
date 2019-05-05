@@ -66,7 +66,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img src="<?php echo base_url()."asset/";?>dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
               <!-- NAMA akun -->
-              <span class="hidden-xs">Admin</span>
+              <span class="hidden-xs">marketing</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
@@ -74,7 +74,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <img src="<?php echo base_url()."asset/";?>dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                 <p>
-                  Administrator
+                  Manager Marketing
                   <small>Member since Nov. 2012</small>
                 </p>
               </li>
@@ -100,23 +100,23 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <img src="<?php echo base_url()."asset/";?>dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Administrator</p>
+          <p>Manager Marketing</p>
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
       </div>
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">MAIN NAVIGATION</li>
-        <li class="active treeview">
+        <li class="treeview">
           <a href="#">
-            <i class="fa fa-dashboard"></i> <span>Dashboard Suplier</span>
+            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">            
-            <li><a href='#' onclick=" getCustomer()"><i class="fa fa-circle-o pointer"></i> Dashboard Customer</a></li>
-            <li><a href='#' onclick="getTransaction()"><i class="fa fa-circle-o pointer"></i> Dashboard Transaction</a></li>
+          <li><a href='<?php echo base_url()."index.php/link/marketing_dasboard"?>'><i class="fa fa-circle-o pointer"></i> Dashboard Customer</a></li>
+            <li><a href='<?php echo base_url()."index.php/link/marketing_dasboard_1"?>'><i class="fa fa-circle-o pointer"></i> Dashboard Transaction</a></li>
           </ul>
         </li>        
       </ul>
@@ -128,7 +128,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <div class="content-wrapper">
     <!--taruh sini embednya-->
     <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" id="frame" src="http://appslayananbi.herokuapp.com/public/dashboard/43dd9492-4405-480b-b7a6-03c5b2fb7372"></iframe>
+      <iframe class="embed-responsive-item" id="frame" src="http://appslayananbi.herokuapp.com/public/dashboard/730b2723-4407-4ad2-bce1-d808a2ebf945"></iframe>
     </div>
   </div>
   <!-- /.content-wrapper -->

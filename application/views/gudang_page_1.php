@@ -115,7 +115,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href='<?php echo base_url()."index.php/link/gudang_dasboard"?>'><i class="fa fa-circle-o pointer"></i> Dashboard Suplier</a></li>            
+          <li><a href='<?php echo base_url()."index.php/link/gudang_dasboard"?>'><i class="fa fa-circle-o pointer"></i> Dashboard Suplier</a></li>            
             <li><a href='<?php echo base_url()."index.php/link/gudang_dasboard_1"?>'><i class="fa fa-circle-o pointer"></i> Dashboard Transaction</a></li>
           </ul>
         </li>        
