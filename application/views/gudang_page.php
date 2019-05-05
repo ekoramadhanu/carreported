@@ -81,7 +81,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-right">
-                  <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                <a href="<?php echo base_url()."index.php/gudang/logout"?>" class="btn btn-default btn-flat">Sign out</a>
                 </div>
               </li>
             </ul>
@@ -115,8 +115,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href='<?php echo base_url()."index.php/link/gudang_dasboard"?>'><i class="fa fa-circle-o pointer"></i> Dashboard Suplier</a></li>            
-            <li><a href='<?php echo base_url()."index.php/link/gudang_dasboard_1"?>'><i class="fa fa-circle-o pointer"></i> Dashboard Transaction</a></li>
+            <li><a href='<?php echo base_url()."index.php/gudang"?>'><i class="fa fa-circle-o pointer"></i> Dashboard Suplier</a></li>            
+            <li><a href='<?php echo base_url()."index.php/gudang/gudang_dasboard"?>'><i class="fa fa-circle-o pointer"></i> Dashboard Transaction</a></li>
           </ul>
         </li>        
       </ul>
@@ -128,7 +128,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <div class="content-wrapper">
     <!--taruh sini embednya-->
     <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" id="frame" src="http://appslayananbi.herokuapp.com/public/dashboard/c029c9e6-0cec-410c-a8ee-890f05944197"></iframe>
+      <iframe class="embed-responsive-item" id="frame" src="http://appslayananbi.herokuapp.com/public/dashboard/43dd9492-4405-480b-b7a6-03c5b2fb7372"></iframe>
     </div>
   </div>
   <!-- /.content-wrapper -->

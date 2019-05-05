@@ -35,19 +35,21 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 
 <body class="tengah">
-    <h1 align='center'><b>Admin</b></h1>
+    <h1 align='center'><b>Admin</b></h1>    
     <div class="row">
         <div class="col-xs-1 col-sm-3 col-md-4"></div>
         <div class="col-xs-10 col-sm-6 col-md-4 border">
             <div class="thumbnail padding">
                 <h5 align='center'>Sign in to start session</h5>
-                <form>
+                <form method="post" action="<?= base_url()."index.php/auth";?>">
                     <div class="form-group">
-                        <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Username">
+                        <input type="text" class="form-control" id="username" name="username" placeholder="Username">
+                        <?= form_error('username','<small class="text-danger">','</small');?>
                     </div>
                     <div class="form-group">
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                    </div>            
+                        <input type="password" class="form-control" id="password" placeholder="Password" name="password">
+                        <?= form_error('password','<small class="text-danger">','</small');?>
+                    </div>    
                     <button type="submit" class="btn btn-primary center-block">Sign In</button>
                 </form>
             </div>
